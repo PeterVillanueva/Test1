@@ -1,0 +1,163 @@
+html::-webkit-scrollbar{
+    display: none;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Oswald';
+}
+
+nav {
+    background-color: transparent;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+nav .logo {
+    float: right;
+    margin: 10px;
+}
+
+nav .logo a {
+    margin-left: 10px;
+    color: #fff;
+    font-size: 24px;
+}
+
+.hero {
+    background-image: url("Background.jpg");
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+}
+
+.hero h1 {
+    font-size: 4rem;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+
+.bubble {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    column-fill: balance;
+    border: 2px solid rgb(202, 33, 165);
+}
+
+.bubble :nth-child(2){
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    column-fill: balance;
+    border: 2px solid rgb(219, 13, 175);
+}
+.bubble :nth-child(3){
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    column-fill: balance;
+    border: 2px solid rgb(138, 18, 112);
+}
+.bubble :nth-child(4){
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    column-fill: balance;
+    border: 2px solid rgb(165, 10, 170);
+}
+.bubble :nth-child(5){
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    column-fill: balance;
+    border: 2px solid rgb(127, 4, 143);
+}
+.bubble :nth-child(6){
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    column-fill: balance;
+    border: 2px solid rgb(92, 13, 129);
+}
+.bubble :nth-child(7){
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    column-fill: balance;
+    border: 2px solid rgba(158, 16, 127, 0.445);
+}
+.bubble :nth-child(8){
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    column-fill: balance;
+    border: 2px solid rgb(79, 4, 141);
+}
+.bubble :nth-child(9){
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    column-fill: balance;
+    border: 2px solid rgb(94, 5, 105);
+}
+.bubble :nth-child(10){
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    column-fill: balance;
+    border: 2px solid rgb(219, 13, 175);
+}
